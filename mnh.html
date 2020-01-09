@@ -13,7 +13,7 @@
     </div>
     <header id="header">
         <div class="inner"><!--inner 1140px-->
-           <h1><a href="#"><img src="images/mnh_logo.png" alt="MNH 엔터테인먼트"/></a></h1>
+           <h1 id="logo"><a href="#"><img src="images/mnh_logo.png" alt="MNH 엔터테인먼트"/></a></h1>
             <nav id="gnb">
                 <ul class="depth1">
                     <li><a href="#" class="a1">COMPANY</a></li>
@@ -107,5 +107,18 @@
                 </ul>  <!--footer sns-->
         </div><!--inner-->
     </footer>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("header").style.padding = ".1px .1px"
+            document.getElementById("logo").style.transform = "scale(.9)";
+          } else {
+            document.getElementById("header").style.padding = "10px 1px"
+            document.getElementById("logo").style.transform = "scale(1)";
+        }
+        }
+    </script>
 </body>
 </html>
