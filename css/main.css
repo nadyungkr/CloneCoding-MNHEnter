@@ -17,7 +17,7 @@ a{text-decoration:none;}
 		z-index:100;
 		text-align:center;
 		padding:10px 1px;
-		transition:0.4s;
+		transition:.6s;
 }
 
 #header .inner{position:relative;}
@@ -71,7 +71,7 @@ a{text-decoration:none;}
 .ban_2 h4{padding:0 0 23px 0;}
 .ban_2 .more{width:91px; height:37px; border:2px solid #fff; border-radius: 10px; 
 			 text-align:center; line-height:37px;}
-.ban_2 .more:hover{background:rgba(255,255,255,.3); transition:all .4s;}
+.ban_2 .more:hover{background:rgba(255,255,255,.3); transition:all .6s;}
 .ban_2 .more a{color:#fff; font-weight:900;}
 .ban_2 h3,.ban_2 h4,.ban_2 section{margin-left:389px;}
 .ban_2 p{position:absolute; left:45px; top:50%;}
